@@ -1,0 +1,55 @@
+# Unity: carpetas regeneradas, incluso en proyectos dentro de subcarpetas
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+
+# Compilaciones y capturas de herramientas de analisis
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+
+# Visual Studio, Rider y otros IDE
+.vs/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Informes de errores de Unity
+sysinfo.txt
+mono_crash.*
+
+# Archivos del sistema operativo
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Credenciales locales: conservar solo plantillas sin secretos
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# IMPORTANTE: conservar Assets/, Packages/ y ProjectSettings/.
+# No ignorar todos los archivos .meta: Unity los necesita para sus referencias.
