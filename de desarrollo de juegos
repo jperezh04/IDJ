@@ -1,0 +1,115 @@
+ .gitignore                                         |    55 [32m+[m
+ Lab02/My project/.vsconfig                         |     6 [32m+[m
+ .../Assets/InputSystem_Actions.inputactions        |  1057 [32m+[m
+ .../Assets/InputSystem_Actions.inputactions.meta   |    14 [32m+[m
+ Lab02/My project/Assets/Lab02Seeking.meta          |     8 [32m+[m
+ Lab02/My project/Assets/Lab02Seeking/Editor.meta   |     8 [32m+[m
+ .../Lab02Seeking/Editor/CreateSeekingScene.cs      |   182 [32m+[m
+ .../Lab02Seeking/Editor/CreateSeekingScene.cs.meta |     2 [32m+[m
+ .../Assets/Lab02Seeking/Editor/FarmCharacters.cs   |   145 [32m+[m
+ .../Lab02Seeking/Editor/FarmCharacters.cs.meta     |     2 [32m+[m
+ Lab02/My project/Assets/Lab02Seeking/Generado.meta |     8 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Brillo_Ojos.mat   |   136 [32m+[m
+ .../Lab02Seeking/Generado/Brillo_Ojos.mat.meta     |     8 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Cerca.mat         |   136 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Cerca.mat.meta    |     8 [32m+[m
+ .../Lab02Seeking/Generado/Cerdito_Hocico.mat       |   136 [32m+[m
+ .../Lab02Seeking/Generado/Cerdito_Hocico.mat.meta  |     8 [32m+[m
+ .../Lab02Seeking/Generado/Cerdito_Pezunas.mat      |   136 [32m+[m
+ .../Lab02Seeking/Generado/Cerdito_Pezunas.mat.meta |     8 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Cerdito_Rosa.mat  |   136 [32m+[m
+ .../Lab02Seeking/Generado/Cerdito_Rosa.mat.meta    |     8 [32m+[m
+ .../Lab02Seeking/Generado/Granjero_Botas.mat       |   136 [32m+[m
+ .../Lab02Seeking/Generado/Granjero_Botas.mat.meta  |     8 [32m+[m
+ .../Lab02Seeking/Generado/Granjero_Camisa.mat      |   136 [32m+[m
+ .../Lab02Seeking/Generado/Granjero_Camisa.mat.meta |     8 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Granjero_Ojos.mat |   136 [32m+[m
+ .../Lab02Seeking/Generado/Granjero_Ojos.mat.meta   |     8 [32m+[m
+ .../Lab02Seeking/Generado/Granjero_Overol.mat      |   136 [32m+[m
+ .../Lab02Seeking/Generado/Granjero_Overol.mat.meta |     8 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Granjero_Piel.mat |   136 [32m+[m
+ .../Lab02Seeking/Generado/Granjero_Piel.mat.meta   |     8 [32m+[m
+ .../Lab02Seeking/Generado/Granjero_Sombrero.mat    |   136 [32m+[m
+ .../Generado/Granjero_Sombrero.mat.meta            |     8 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Ojos.mat          |   136 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Ojos.mat.meta     |     8 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Seeking.unity     | 20189 [32m+++++++++++++++++++[m
+ .../Lab02Seeking/Generado/Seeking.unity.meta       |     7 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Suelo.mat         |   136 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Suelo.mat.meta    |     8 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Vectores.mat      |    43 [32m+[m
+ .../Assets/Lab02Seeking/Generado/Vectores.mat.meta |     8 [32m+[m
+ Lab02/My project/Assets/Lab02Seeking/Scripts.meta  |     8 [32m+[m
+ .../Assets/Lab02Seeking/Scripts/FarmCamera.cs      |    50 [32m+[m
+ .../Assets/Lab02Seeking/Scripts/FarmCamera.cs.meta |     2 [32m+[m
+ .../Assets/Lab02Seeking/Scripts/PlanarBody.cs      |    94 [32m+[m
+ .../Assets/Lab02Seeking/Scripts/PlanarBody.cs.meta |     2 [32m+[m
+ .../Assets/Lab02Seeking/Scripts/SeekingAgent.cs    |    73 [32m+[m
+ .../Lab02Seeking/Scripts/SeekingAgent.cs.meta      |     2 [32m+[m
+ .../Assets/Lab02Seeking/Scripts/SeekingDemoHUD.cs  |    77 [32m+[m
+ .../Lab02Seeking/Scripts/SeekingDemoHUD.cs.meta    |     2 [32m+[m
+ .../Lab02Seeking/Scripts/SteeringVisualizer.cs     |    88 [32m+[m
+ .../Scripts/SteeringVisualizer.cs.meta             |     2 [32m+[m
+ .../Lab02Seeking/Scripts/TargetController.cs       |   103 [32m+[m
+ .../Lab02Seeking/Scripts/TargetController.cs.meta  |     2 [32m+[m
+ Lab02/My project/Assets/Readme.asset               |    34 [32m+[m
+ Lab02/My project/Assets/Readme.asset.meta          |     8 [32m+[m
+ Lab02/My project/Assets/Scenes.meta                |     8 [32m+[m
+ Lab02/My project/Assets/Scenes/SampleScene.unity   |   432 [32m+[m
+ .../Assets/Scenes/SampleScene.unity.meta           |     7 [32m+[m
+ Lab02/My project/Assets/Settings.meta              |     8 [32m+[m
+ .../Assets/Settings/DefaultVolumeProfile.asset     |   982 [32m+[m
+ .../Settings/DefaultVolumeProfile.asset.meta       |     8 [32m+[m
+ .../Assets/Settings/Mobile_RPAsset.asset           |   135 [32m+[m
+ .../Assets/Settings/Mobile_RPAsset.asset.meta      |     8 [32m+[m
+ .../Assets/Settings/Mobile_Renderer.asset          |    52 [32m+[m
+ .../Assets/Settings/Mobile_Renderer.asset.meta     |     8 [32m+[m
+ Lab02/My project/Assets/Settings/PC_RPAsset.asset  |   135 [32m+[m
+ .../Assets/Settings/PC_RPAsset.asset.meta          |     8 [32m+[m
+ Lab02/My project/Assets/Settings/PC_Renderer.asset |    95 [32m+[m
+ .../Assets/Settings/PC_Renderer.asset.meta         |     8 [32m+[m
+ .../Assets/Settings/SampleSceneProfile.asset       |   159 [32m+[m
+ .../Assets/Settings/SampleSceneProfile.asset.meta  |     8 [32m+[m
+ .../UniversalRenderPipelineGlobalSettings.asset    |   355 [32m+[m
+ ...niversalRenderPipelineGlobalSettings.asset.meta |     8 [32m+[m
+ Lab02/My project/Assets/TutorialInfo.meta          |     8 [32m+[m
+ Lab02/My project/Assets/TutorialInfo/Icons.meta    |     9 [32m+[m
+ Lab02/My project/Assets/TutorialInfo/Icons/URP.png |   Bin [31m0[m -> [32m24069[m bytes
+ .../Assets/TutorialInfo/Icons/URP.png.meta         |   134 [32m+[m
+ Lab02/My project/Assets/TutorialInfo/Layout.wlt    |   654 [32m+[m
+ .../My project/Assets/TutorialInfo/Layout.wlt.meta |     8 [32m+[m
+ Lab02/My project/Assets/TutorialInfo/Scripts.meta  |     9 [32m+[m
+ .../Assets/TutorialInfo/Scripts/Editor.meta        |     9 [32m+[m
+ .../TutorialInfo/Scripts/Editor/ReadmeEditor.cs    |   242 [32m+[m
+ .../Scripts/Editor/ReadmeEditor.cs.meta            |    12 [32m+[m
+ .../Assets/TutorialInfo/Scripts/Readme.cs          |    16 [32m+[m
+ .../Assets/TutorialInfo/Scripts/Readme.cs.meta     |    12 [32m+[m
+ Lab02/My project/Assets/Unity_Seeking_LAB02.meta   |     8 [32m+[m
+ Lab02/My project/Packages/manifest.json            |    47 [32m+[m
+ Lab02/My project/Packages/packages-lock.json       |   463 [32m+[m
+ .../My project/ProjectSettings/AudioManager.asset  |    19 [32m+[m
+ .../ProjectSettings/ClusterInputManager.asset      |     6 [32m+[m
+ .../ProjectSettings/DynamicsManager.asset          |    36 [32m+[m
+ .../ProjectSettings/EditorBuildSettings.asset      |    13 [32m+[m
+ .../ProjectSettings/EditorSettings.asset           |    49 [32m+[m
+ .../ProjectSettings/GraphicsSettings.asset         |    70 [32m+[m
+ .../My project/ProjectSettings/InputManager.asset  |   487 [32m+[m
+ .../ProjectSettings/MemorySettings.asset           |    35 [32m+[m
+ .../ProjectSettings/MultiplayerManager.asset       |     7 [32m+[m
+ .../My project/ProjectSettings/NavMeshAreas.asset  |    91 [32m+[m
+ .../ProjectSettings/PackageManagerSettings.asset   |    43 [32m+[m
+ .../ProjectSettings/Physics2DSettings.asset        |    56 [32m+[m
+ .../My project/ProjectSettings/PresetManager.asset |     7 [32m+[m
+ .../ProjectSettings/ProjectSettings.asset          |   934 [32m+[m
+ .../My project/ProjectSettings/ProjectVersion.txt  |     2 [32m+[m
+ .../ProjectSettings/QualitySettings.asset          |   134 [32m+[m
+ .../ProjectSettings/SceneTemplateSettings.json     |   121 [32m+[m
+ .../ProjectSettings/ShaderGraphSettings.asset      |    19 [32m+[m
+ Lab02/My project/ProjectSettings/TagManager.asset  |    76 [32m+[m
+ Lab02/My project/ProjectSettings/TimeManager.asset |     9 [32m+[m
+ .../ProjectSettings/URPProjectSettings.asset       |    15 [32m+[m
+ .../ProjectSettings/UnityConnectSettings.asset     |    36 [32m+[m
+ Lab02/My project/ProjectSettings/VFXManager.asset  |    12 [32m+[m
+ .../ProjectSettings/VersionControlSettings.asset   |     8 [32m+[m
+ Lab02/My project/ProjectSettings/XRSettings.asset  |    10 [32m+[m
+ 114 files changed, 30503 insertions(+)
